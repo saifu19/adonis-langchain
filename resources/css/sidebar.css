@@ -1,0 +1,33 @@
+.sidebar{
+    background-color: #eaf2e1;
+    height: 94vh;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+} 
+
+.rounded-button {
+    
+    background-color: #BA9359; /* Change to your desired color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.rounded-button:hover {
+    background-color: #d8bf99;
+}
+.text-section {
+    margin-top: 10px;
+    text-align: center;
+    font-size: small;
+}

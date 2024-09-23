@@ -1,0 +1,38 @@
+/* Initially hide the user input and response */
+#user-input-display, #ai-reply {
+    display: none;
+}
+
+/* Style for showing user input and AI response */
+.ai-reply.active {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #d1a767;
+    border-radius: 10px;
+    background-color: #fdf3e7;
+    margin-top: 10px;
+    word-wrap: break-word; /* This ensures text breaks properly */
+    max-width: 80%; /* Adjust the width based on how wide you want it */
+    align-self: flex-start;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+    overflow-y: auto;
+}
+/* Style for showing user input and AI response */
+.user-input-display.active {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #d1a767;
+    border-radius: 10px;
+    background-color: #fdf3e7;
+    word-wrap: break-word; /* This ensures text breaks properly */
+    max-width: 80%; /* Adjust the width based on how wide you want it */
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}

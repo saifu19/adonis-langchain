@@ -1,0 +1,15 @@
+
+.container-fluid {
+    margin-top: auto;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+  }
+  
+
+  .aa{
+    /* background-color: aqua; */
+    position: fixed;
+    bottom :10vh;
+  }
